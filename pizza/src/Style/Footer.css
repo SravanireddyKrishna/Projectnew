@@ -1,0 +1,36 @@
+.footerL img
+{
+    width:100px;
+    padding-left: 20px;
+}
+.footerL
+{
+    text-align:justify;
+    
+}
+.contact a
+{
+    text-decoration:none;
+}
+.footer
+{
+    margin:20px;
+    padding:20px;
+    border: 2px solid #21d839;
+    
+    text-align:initial;
+}
+.footer .reach
+{
+    padding-left: 110px;
+}
+.footer .contact
+{
+    padding-left: 60px;
+}
+.designed
+{
+    border: 1px solid #21d839;
+    margin:20px;
+    padding:20px;
+}

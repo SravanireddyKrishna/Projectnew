@@ -1,0 +1,22 @@
+figcaption {
+    position: absolute;
+    bottom: 160px;
+    margin: 0 2rem;
+    font-size: 1.5em;
+  
+}
+@media screen and (max-width: 768px) {
+    figcaption {
+        position: inherit;
+        bottom: inherit;
+        margin: .25rem 0px;
+        font-size: inherit;
+        color: inherit;
+    }
+}
+.home img
+{
+   height:500px;
+   width:100%;
+   
+}
