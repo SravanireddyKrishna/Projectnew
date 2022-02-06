@@ -5,35 +5,40 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import '../Style/Menu.css';
 import {MenuList} from '../Pages/MenuList';
 //import MenuItems from '../Pages/MenuItems';
-import MenuItems from './MenuItems';
+import MenuItem from './MenuItems';
 
 function Menu() {
   return( 
         <div>
               <div className="Container">
-                <div className="row">
+                <div className="row menu">
                   <div className="col-md-12">
-                    <h1 className="text-center m-4 text-danger">Our Services</h1>
-                    <div className="MenuList">
-                      {MenuList.map ( ( MenuItem,key )  => 
-
-                      {
-                       
-debugger
-                        return (
-                          <MenuItems className="text-dark">
-                          key={key} 
-                          imageUrl={MenuItem.imageUrl}
-                          name={MenuItem.name}
-                          price={MenuItem.price}
-                          </MenuItems>
-                        );                          
+                    <h1 className="text-center m-4 text-danger menuTitle">Our Services</h1>
+                    <div className="menuList">
+                      {MenuList.map((menuItem,key)=>{
+                        return(
+                          
+                            <MenuItem 
+                            
+                            key={key}
+                            imageUrl={menuItem.imageUrl}
+                            name={menuItem.name}
+                            price={menuItem.price}
+                            
+                            
+                            />
+                        );
                       })}
                       </div>
                   </div>
                 </div>
               </div>
         </div>
+
+// Ctrl +K
+//Ctrl + U 
+
+
   );
 }
 

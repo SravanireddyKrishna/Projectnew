@@ -1,0 +1,58 @@
+body
+{
+    background-image: linear-gradient(to right, #b3c7b8,#a39576,#e6e3dc)
+}
+.contact img
+{
+    width: 100%;
+    height: 400px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+.contact h1
+{
+    padding-top:20px;
+}
+
+.Forms
+{
+    padding-left:30px; 
+}
+.Forms .form-control
+{
+    margin: 20px;
+    padding:10px;
+    border-color: #0275d8;
+}
+.submit
+{
+    padding-left:30px;
+}
+.Contact
+{
+    padding-left:10px;
+    border: 2px solid #0275d8;
+    width:320px;
+    border-spacing: 30px;
+    margin-left: 200px;
+    text-align: justify;    
+    background-color: rgb(236, 223, 223); 
+    padding:10px;
+}
+
+.ReachUs
+{
+    padding-left:30px;
+    border: 2px solid #0275d8;
+    width:320px;
+    border-spacing: 30px;
+    margin-left: 200px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: rgb(236, 223, 223); 
+   
+}
+.Error
+{
+    color:red;
+}

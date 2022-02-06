@@ -37,7 +37,8 @@ function Footer() {
               </div>
               <div className="col-md-4 contact">
                 
-                        <h3><span className="p-2 m-2 text-info"><FcIcons.FcBusinessContact/></span>Contact</h3>
+                        <h3><span className="p-2 m-2 text-info"><FcIcons.FcBusinessContact/>
+                        </span>Contact</h3>
                         <br/>
                         
                                 <p>
